@@ -1,0 +1,33 @@
+#search-textarea {
+    all: initial;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    overflow-y: hidden;
+    width: -webkit-fill-available;
+    margin: 0 8px 8px 8px;
+    border-radius: 10px;
+    resize: none;
+    background-color: white;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: inherit;
+}
+
+#search-textarea::placeholder {
+    vertical-align: middle;
+    /* Center placeholder text horizontally */
+}
+
+#prompt-list {
+    overflow-y: auto;
+    margin: 8px 16px 8px 16px;
+    max-height: 33vh;
+}
+
+.branding-container {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;
+}

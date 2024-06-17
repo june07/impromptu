@@ -1,0 +1,36 @@
+{
+	"manifest_version": 3,
+	"name": "__MSG_appName__",
+	"version": "0.0.0",
+	"default_locale": "en",
+	"description": "__MSG_appDescription__",
+	"author": "June07 <667@june07.com> (https://june07.com/)",
+	"action": {
+		"default_icon": {
+			"16": "/icon/icon16.png",
+			"24": "/icon/icon24.png",
+			"32": "/icon/icon32.png"
+		},
+		"default_title": "__MSG_appName__"
+	},
+	"icons": {
+		"16": "/icon/icon16.png",
+		"24": "/icon/icon24.png",
+		"32": "/icon/icon32.png",
+		"48": "/icon/icon48.png",
+		"64": "/icon/icon64.png",
+		"96": "/icon/icon96.png",
+		"128": "/icon/icon128.png",
+		"256": "/icon/icon256.png",
+		"384": "/icon/icon384.png",
+		"512": "/icon/icon512.png"
+	},
+	"background": {
+		"service_worker": "/src/sw.js"
+	},
+	"permissions": ["webRequest", "storage", "tabs", "scripting"],
+    "host_permissions": ["<all_urls>"],
+	"externally_connectable": {
+		"matches": ["*://*.june07.com/*"]
+	}
+}

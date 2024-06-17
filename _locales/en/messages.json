@@ -1,0 +1,14 @@
+{
+	"appName": {
+		"message": "Impromptu"
+	},
+	"appShortName": {
+		"message": "Impromptu"
+	},
+	"appDescription": {
+		"message": "Universal Client-Side GPT Prompt Manager"
+	},
+	"defaultTitle": {
+		"message": "Universal Client-Side GPT Prompt Manager"
+	}
+}
